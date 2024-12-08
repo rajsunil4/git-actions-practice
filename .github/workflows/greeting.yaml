@@ -7,3 +7,4 @@ jobs:
         steps:
             - name: "greet user"
               run: echo "Hello world!"
+              run: echo "${{github}}"
